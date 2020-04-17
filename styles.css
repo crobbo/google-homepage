@@ -5,7 +5,32 @@
     margin-right: auto;
     width: 50%;
     text-align: center; 
+    padding: 200px
 }
-.logo {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     
+  }
+
+   .left-nav {
+    float: left;
+  }
+  .right-nav {
+      float: right;
+      
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer-left {
+    float: left;
 }
